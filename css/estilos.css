@@ -1,0 +1,62 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif; 
+    
+}
+
+
+.botona {
+    background-color: rgb(24, 95, 10); /* Verde oscuro */
+    color: white; /* Texto blanco para contraste */
+    border: none; /* Quitar borde predeterminado */
+    border-radius: 50px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 18px; /* Tamaño de fuente */
+    cursor: pointer; 
+}
+
+.botona:hover {
+    background-color: rgb(18, 75, 8); /* Verde más oscuro en hover */
+}
+
+/* Botones con fondo marrón */
+.botone {
+    background-color: brown;
+    color: white; /* Texto blanco para contraste */
+    border: none; /* Quitar borde predeterminado */
+    border-radius: 50px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    transition: background-color 0.3s ease; /* Transición suave */
+    margin: 10px; /* Espaciado alrededor */
+}
+
+.botone:hover {
+    background-color: darkred; /* Marrón más oscuro en hover */
+}
+
+/* Área de texto */
+.txta {
+    background-color: azure;
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 10px; /* Bordes ligeramente redondeados */
+    padding: 10px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    box-sizing: border-box; /* Incluir borde y padding en el ancho */
+    margin-top: 10px; /* Espaciado superior */
+}
+
+/* Encabezado nivel 3 */
+h3 {
+    color: rgb(24, 78, 204); /* Color de texto más oscuro */
+    font-size: 24px; /* Tamaño de fuente */
+    margin-bottom: 20px; /* Espaciado inferior */
+    font-weight: bold; /* Texto en negrita */
+}
+
+
+.primero {
+    color: rgb(24, 78, 204);
+    text-align: center;
+}
